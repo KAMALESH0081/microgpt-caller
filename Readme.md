@@ -18,6 +18,14 @@ This project shows how a small, custom-trained model can handle structured tasks
 ---
 
 ## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/KAMALESH0081/microgpt-caller.git
+
+```bash
+# Clone the repository
+git clone https://github.com/KAMALESH0081/microgpt-caller.git
+cd microgpt-caller
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Launch demo notebook
+jupyter notebook demo.ipynb

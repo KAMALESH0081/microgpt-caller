@@ -88,3 +88,16 @@ You can use these weights to run MicroGPT-Caller locally without retraining.
 The fine-tuned model (gpt2-finetuned-v1) is available on Kaggle Models:
 🔗 [MicroGPT-Caller on Kaggle](https://www.kaggle.com/models/kamal2026/microgpt-caller)
 
+---
+
+## Future Plans
+
+In the next version of MicroGPT-Caller, I plan to:
+
+- Train a **custom GPT model** on **200k+ samples** for even better performance.  
+- Enable the model to **handle small typos** or user input errors gracefully by SFT.  
+- Add **more features** for easy training and inference.  
+- Improve **error handling** in the code for more robust execution.  
+
+Stay tuned for updates in upcoming releases!
+

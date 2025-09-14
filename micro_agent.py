@@ -21,7 +21,7 @@ class MicroAgent:
                 "doc": f.__doc__ or "No description"
             }
         self.max_new_tokens = max_new_tokens
-        self.structured_output = structured_output  # <--- store instance variable
+        self.structured_output = structured_output
 
 
     def _parse_raw_to_json(self, raw_call: str) -> dict:
@@ -40,7 +40,7 @@ class MicroAgent:
         args = {}
 
         if args_str.strip():
-            # Wrap in a dummy function and use ast.parse to safely evaluate
+            
             dummy_call = f"f({args_str})"
             node = ast.parse(dummy_call, mode='eval')
             call_node = node.body

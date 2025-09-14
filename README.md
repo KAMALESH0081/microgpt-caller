@@ -21,7 +21,7 @@ This project shows how a small, custom-trained model can handle structured tasks
 ## Quick Usage Example
 
 ```python
-from auto_agent import AutoAgent
+from micro_agent import MicroAgent
 
 def add(a: int, b: int) -> int:
     """Adds two numbers"""
@@ -32,7 +32,7 @@ def subtract(a: int, b: int) -> int:
     return a - b
 
 # Initialize agent with your tools
-agent = AutoAgent(tools=[add, subtract])
+agent = MicroAgent(tools=[add, subtract])
 
 # Run a query
 print(agent.run("add 5 and 3"))  # → 8

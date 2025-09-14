@@ -27,5 +27,11 @@ cd microgpt-caller
 # Install dependencies
 pip install -r requirements.txt
 
-# Launch demo notebook
-jupyter notebook demo.ipynb
+```
+---
+
+## Model Weights
+
+The fine-tuned model (gpt2-finetuned-v1) and additional resources are available on Kaggle Models:
+🔗 [MicroGPT-Caller on Kaggle](https://www.kaggle.com/models/kamal2026/microgpt-caller)
+
